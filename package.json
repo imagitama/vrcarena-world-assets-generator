@@ -1,0 +1,17 @@
+{
+  "name": "createpedestals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CreateAssetsJson.js",
+  "scripts": {
+    "start": "node main.js --output=\"E:/My projects/Worlds/VRCArena/VRCArena World/Assets/VRCArena World/Tools/CreatePedestals\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.28.5",
+    "dotenv": "^10.0.0",
+    "qrcode": "^1.5.0",
+    "sharp": "^0.29.3"
+  }
+}
