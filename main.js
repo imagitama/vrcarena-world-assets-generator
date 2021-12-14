@@ -307,7 +307,7 @@ const getSvgForAsset = (asset) => `<svg viewBox="0 0 1000 500">
     fill="white"
     font-family="Arial, Helvetica, sans-serif"
     alignment-baseline="center"
-    font-size="32px"
+    font-size="48px"
     text-anchor="middle"
   >${escapeStringForSvg(asset.title)}${
   asset.authorname ? ` by ${escapeStringForSvg(asset.authorname)}` : ""
@@ -333,11 +333,12 @@ const getSvgForSpecies = (species) => `<svg viewBox="0 0 1000 500">
   />
   <text
     x="50%"
-    y="15%"
+    y="18%"
     fill="white"
     font-family="Arial, Helvetica, sans-serif"
+    font-weight="bold"
     alignment-baseline="center"
-    font-size="32px"
+    font-size="54px"
     text-anchor="middle"
   >
     ${escapeStringForSvg(species.pluralname)}
