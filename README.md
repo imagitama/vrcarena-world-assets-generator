@@ -21,7 +21,11 @@ Example:
 
 ## Switches
 
-### `--download`
+### `--download-missing`
+
+Download any missing thumbnails.
+
+### `--download-all`
 
 Download all thumbnails.
 
