@@ -4,7 +4,7 @@
   "description": "",
   "main": "CreateAssetsJson.js",
   "scripts": {
-    "start": "node main.js --output=\"E:/My projects/Worlds/VRCArena/VRCArena World/Assets/VRCArena World/Tools/CreatePedestals\""
+    "start": "node main.js"
   },
   "author": "",
   "license": "ISC",

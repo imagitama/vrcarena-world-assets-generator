@@ -2,7 +2,4 @@
 .env.dev
 .env.prod
 node_modules
-.meta
-.json
-asset-data
-species-data
+downloads
